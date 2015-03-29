@@ -1,0 +1,5 @@
+# this script will create a copy of CivicApps as ./CivicApps in the current directory
+# to run:
+# lftp -f mirror-portlandoregon.lftp
+open ftp://ftp02.portlandoregon.gov/
+mirror CivicApps
